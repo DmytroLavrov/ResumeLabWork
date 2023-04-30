@@ -1,0 +1,526 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body {
+    height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*------------------------*/
+
+body {
+    font-family: 'Roboto', sans-serif;    
+    position: relative;
+    width: 595px;
+    height: 842px;
+}
+
+/* rectangle 1 */
+.rectangle1 {
+    position: relative;
+    width: 549.79px;
+    height: 146.09px;
+    left: 20.11px;
+    top: 20.56px;
+    background: rgba(217, 217, 217, 0.45);
+}
+.elipse2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 128.81px;
+    height: 128.81px;
+    left: 36.13px;
+    top: 8.64px;
+    background: #FFFFFF;
+    border: 2px solid #F7B41F;
+    border-radius: 50%;
+}
+.elipse1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 116.09px;
+    height: 116.09px;
+    left: 4.9px;
+    top: 4.8px;
+    background: #F7B41F;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: 50%;
+    background: url(../img/Ava.jpg) 0px -10px/115px 134px no-repeat;
+}
+.family {
+    position: absolute;
+    width: 182px;
+    height: 29px;
+    left: 200.39px;
+    top: 19.61px;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #000000;
+}
+.name {
+    font-weight: 700;
+}
+.specialty {
+    position: absolute;
+    width: 183px;
+    height: 23px;
+    left: 200.39px;
+    top: 48.61px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+.description {
+    position: absolute;
+    width: 338.39px;
+    height: 52.21px;
+    left: 200.39px;
+    top: 82.88px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #3E454E;
+}
+
+/* rectangle 2 */
+.rectangle2 {
+    position: absolute;
+    width: 223px;
+    height: 410px;
+    left: 23px;
+    top: 193px;
+    background: rgba(217, 217, 217, 0.45);
+    border-radius: 10px;
+}
+.contact {
+    position: absolute;
+    width: 53px;
+    height: 18px;
+    left: 23.1px;
+    top: 14.25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+.vector {
+    background: url('../img/Vector.svg') no-repeat;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 23.1px;
+    top: 51.72px;
+}
+.phone {
+    position: absolute;
+    width: 88px;
+    height: 14px;
+    left: 43.46px;
+    top: 52.79px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #3E454E;
+}
+.mail {
+    background: url('../img/email.svg') no-repeat;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 23.1px;
+    top: 78.46px;
+}
+.email {
+    position: absolute;
+    width: 114px;
+    height: 14px;
+    left: 43.46px;
+    top: 78.39px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #3E454E;
+}
+.marker {
+    background: url('../img/map-marker.svg') no-repeat;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 23.1px;
+    top: 105.2px;
+}
+.map {
+    position: absolute;
+    width: 75px;
+    height: 14px;
+    left: 43.46px;
+    top: 105.2px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #3E454E;
+}
+
+.education {
+    position: absolute;
+    width: 67px;
+    height: 18px;
+    left: 23.1px;
+    top: 166.05px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+.degree {
+    position: absolute;
+    width: 192px;
+    height: 14px;
+    left: 23.1px;
+    top: 203.17px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #3E454E;
+}
+.university {
+    position: absolute;
+    width: 156px;
+    height: 28px;
+    left: 23.1px;
+    top: 221px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #3E454E;
+}
+.years {
+    position: absolute;
+    width: 192px;
+    height: 14px;
+    left: 23.1px;
+    top: 253px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #3E454E;
+}
+
+.languages {
+    position: absolute;
+    width: 74px;
+    height: 18px;
+    left: 23.1px;
+    top: 313px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+.listLanguages{
+    width: 240px;
+    height: 133px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #3E454E;
+}
+.listLanguages li {
+    position: relative;
+    left: 23.1px;
+    top: 347.4px;
+    margin: 0 0 5px 0px;
+    padding: 0 0 0 5px;
+    list-style: inside;
+}
+
+/* Rectangle 3 */
+.rectangle3 {
+    position: absolute;
+    width: 286.82px;
+    height: 193.21px;
+    left: 285.58px;
+    top: 193.35px;
+    background: rgba(217, 217, 217, 0.45);
+    border-radius: 10px;
+}
+.skills {
+    position: absolute;
+    width: 37px;
+    height: 18px;
+    left: 33.41px;
+    top: 14.25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+.listSkills{
+    width: 230px;
+    height: 133px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #3E454E;
+}
+.listSkills li {
+    position: relative;
+    left: 50.42px;
+    top: 48.65px;
+    margin: 0 0 5px 0px;
+    list-style: outside;
+}
+
+/* Rectangle 4 */
+.rectangle4 {
+    position: absolute;
+    width: 223.7px;
+    height: 177.48px;
+    left: 24.18px;
+    top: 626.92px;
+    background: #F7B41F;
+    border-radius: 10px;    
+}
+.hobbies {
+    position: absolute;
+    width: 56px;
+    height: 18px;
+    left: 23.1px;
+    top: 14.25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+.soccer {
+    background: url('../img/soccer.svg');
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 30.82px;
+    top: 93.08px;
+}
+.name1 {
+    position: absolute;
+    width: 39px;
+    height: 14px;
+    left: 21.92px;
+    top: 117.55px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #1C2123;
+}
+.dumbbell {
+    background: url('../img/dumbbell.svg');
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 77.82px;
+    top: 93.08px;
+}
+.name2 {
+    position: absolute;
+    width: 25px;
+    height: 14px;
+    left: 74.82px;
+    top: 117.55px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #1C2123;
+}
+.book {
+    background: url('../img/book.svg');
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 124.82px;
+    top: 93.08px;
+}
+.name3 {
+    position: absolute;
+    width: 48px;
+    height: 14px;
+    left: 111.82px;
+    top: 117.55px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #1C2123;
+}
+.airplane {
+    background: url('../img/airplane.svg');
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 173.82px;
+    top: 93.08px;
+}
+.name4 {
+    position: absolute;
+    width: 39px;
+    height: 14px;
+    left: 167.59px;
+    top: 117.55px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #1C2123;
+}
+
+
+/* Rectangle 5 */
+.rectangle5 {
+    position: absolute;
+    width: 286.82px;
+    height: 391.3px;
+    left: 285.58px;
+    top: 413.27px;
+    background: rgba(217, 217, 217, 0.45);
+    border-radius: 10px;
+}
+.experience {
+    position: absolute;
+    width: 75px;
+    height: 18px;
+    left: 24.42px;
+    top: 14.25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+.job1 {
+    position: absolute;
+    width: 104px;
+    height: 14px;
+    left: 24.42px;
+    top: 58.06px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #3E454E;
+}
+.company1 {
+    position: absolute;
+    width: 168px;
+    height: 14px;
+    left: 24.42px;
+    top: 75.89px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #3E454E;    
+}
+.listDescription1 {
+    width: 182px;
+    height: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #3E454E;
+}
+.listDescription1 li {
+    position: relative;
+    left: 40.42px;
+    top: 98.72px;
+    margin: 0 0 5px 0px;
+    list-style: outside;
+}
+
+.job2 {
+    position: absolute;
+    width: 135px;
+    height: 14px;
+    left: 24.42px;
+    top: 204.73px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #3E454E;
+}
+.company2 {
+    position: absolute;
+    width: 140px;
+    height: 14px;
+    left: 24.42px;
+    top: 222.56px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #3E454E;
+}
+.listDescription2 {
+    width: 192px;
+    height: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #3E454E;
+}
+.listDescription2 li {
+    position: relative;
+    left: 40.42px;
+    top: 233.39px;
+    margin: 0 0 5px 0px;
+    list-style: outside;
+}
